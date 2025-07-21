@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 # Load the trained model and expected features
-with open('/Users/ananyaaggarwal/Desktop/Movie Prediction Project/models/sequel_model_60_40.pkl', 'rb') as f:
+with open('models/sequel_model_60_40.pkl', 'rb') as f:
     model_package = pickle.load(f)
 
 model = model_package['model']
