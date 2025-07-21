@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.h5
+*.db
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Node/React (if used)
+node_modules/
+build/
+dist/
+*.lock
+
+# Environment
+.env
+
+# System
+*.swp
+
+data/cleaned_and_merged_data.csv
+data/final_processed_data.csv
+
+data/
+
+model/
+
+
